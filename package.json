@@ -1,0 +1,23 @@
+{
+  "name": "create-react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leodaiub/Star-Wars-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leodaiub/Star-Wars-App/issues"
+  },
+  "homepage": "https://github.com/leodaiub/Star-Wars-App#readme",
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
