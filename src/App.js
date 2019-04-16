@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Logo from './Logo.js';
-import SearchBox from './SearchBox.js';
-import Cards from './Cards.js';
+import Logo from './components/Logo/Logo.js';
+import SearchBox from './components/SearchBox/SearchBox';
+import Cards from './components/Cards/Cards';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <Logo/>
-        {/*<SearchBox/>
-        <Cards/>*/}
+        <SearchBox/>
+        <Cards/>
       </div>
     );
   }
